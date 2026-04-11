@@ -16,24 +16,23 @@ c = int(input("Ingrese el tercer número: "))
 
 if a > 0 :  
     a = a * -1
-else : 
-    a = a * 1
 
 print ("El primer número es",a,)
 
 if b > 0 :  
     b = b * -1
-else : 
-    b = b * 1
 
 print ("El segundo número es",b,)
 
 if c > 0 :  
     c = c * -1
-else : 
-    c = c * 1
 
 print ("El segundo número es",c,)
+
+"""
+Investigar sistemas de archivo fat32, ntfs, ext4.
+
+"""
 
 
 
