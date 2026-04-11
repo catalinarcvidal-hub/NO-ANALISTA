@@ -1,0 +1,1 @@
+#Reinciar el equipo -> Abrir GitHub y logearse con Gmail -> Abrir visual studio code -> Extension -> Buscar Live Share e instalar -> 
