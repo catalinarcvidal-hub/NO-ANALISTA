@@ -5,7 +5,7 @@
 a = 0
 b = 0
 c = 0
-pmayor = ""
+mayor = ""
 menor = ""
 medio = ""
 
@@ -14,26 +14,43 @@ b = int(input("Ingrese el segundo número: "))
 c = int(input("Ingrese el tercer número: "))
 
 
-if pmayor a > b :
-    a = "Posible mayor"
-    if mayor a > c :
-        a = "Mayor"
-        if medio b > c : 
-            b = "Medio"
+if a > b :
+    mayor = a
+    menor = b
+    if a > c :
+        mayor = a
+        if b > c :
+            medio = b
+            menor = c
         else :
-            print("El valor medio es",medio,)
-
-else : 
-    b = "Posible mayor"
+            medio = c
+            menor = b 
+    else:
+         mayor = c
+         medio = a
+         menor = b      
+else :
     if b > c :
-        b = "Mayor"
-    if medio a > c : 
-            print("El valor medio es",a,)
+        mayor = b
+        medio = c
+        if c > a :
+            medio = c
+            menor = a
         else :
-            print("El valor medio es",c,)
+            medio = a
+            menor = c
+    else: 
+        if c > b :
+            mayor = c
+            if b > a :
+                medio = b
+                menor = a
+            else: 
+                medio = a
+                menor = b
+            
 
- 
-print ("Ordenamos los números ingresados de manera ascendente:" , menor, medio, mayor,".")
+print(f"Ordenados de menor a mayor: {menor} , {medio} , {mayor}") 
 
 
 
