@@ -14,6 +14,12 @@ if num > 0 :
     print ("Número correcto.")
 else : 
     print ("Número inválido, reingrese.")
+    num = int(input("Ingrese un numero igual o mayor a 0: "))
+if num > 0 :
+    print ("Número correcto.")
+else : 
+    print ("Número inválido, reingrese.")
+
 
 
 
