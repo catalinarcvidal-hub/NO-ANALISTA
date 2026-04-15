@@ -9,7 +9,6 @@ Proceso de formateo: prepara la unidad de almacenamiento
 eliminando todos los datos existente preparandola para un nuevo uso.
 
 
-
 Requisitos para ambos son:
  - S.O
  - Tamaño de las particiones
@@ -25,6 +24,4 @@ La partición de arranque de un sistema operativo debe configurarse como una par
 
 El comando "format" se utiliza para formatear una partición de disco duro en el sistema operativo Windows, permitiendo la preparación de la unidad para su uso. 
 
-
 """
-....

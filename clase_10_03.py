@@ -30,6 +30,5 @@ numero = input("Ingresa un número: ")  # llega como texto "5"
 numero = int(numero)                   # ahora es el número 5
 print(numero * 2)                      # resultado: 10
 
-""
 
 
