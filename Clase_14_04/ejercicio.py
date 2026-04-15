@@ -8,7 +8,6 @@ Generar un programa que determine el rango etareo.
 50 - +  -> Adulto mayor
 
 """
-
 edad = 0
 
 edad = int(input("Ingrese su edad: "))
