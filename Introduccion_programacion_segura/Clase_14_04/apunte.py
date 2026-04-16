@@ -16,7 +16,10 @@ Ejemplo: if n1 > n2 and n1 > n3
    .f. | v | f
    .f. | f | f
 
-*Estado booleano es solo dos estados. Como verdadero y falso.
+*Estado booleano es solo dos estados. verdadero (1) y falso (0)
+Ejemplo: 
+“Salgo si tengo dinero Y tiempo”
+
 
 "Or" es para las condiciones en las que con que solo 
 una condicion se cumpla, es decir, sea verdadera, vuelve
@@ -33,6 +36,9 @@ Ejemplo:
 
 "not" es para cambiar un valor a otro, como si es falso, 
 el not lo vuelve verdadero.
+Ejemplo:
+“Salgo si tengo dinero O me invitan”
+
 
 | = pipe
 
