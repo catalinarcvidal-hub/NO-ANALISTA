@@ -32,7 +32,4 @@ pueda iniciar correctamente***
 de disco duro en el sistema operativo Windows, permitiendo la 
 preparación de la unidad para su uso.***
 
-***
-
-
 """
