@@ -65,7 +65,17 @@ el usuario hasta que la condicion deje de repetirse.
 de numeros en la misma linea?
 
 poner un numero
+poner un intervalo en el que se guarde el numero que
+se ira sumando hasta llegar al numero del contador. 
+pero como hago que llegue hasta el numero. es como
 
+contador
 
 
 """
+
+while contador <= numero:
+    print(contador)
+    while contador2 <= contador:
+        print(contador2, sep=" , ")
+    contador = contador + 1 
