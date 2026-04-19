@@ -12,11 +12,13 @@ print("Te mostrare una secuencia númerica muy entretenida, ¿Hasta que número 
 numero = int(input("Ingrese un número: "))
 
 while contador <= numero:
-    print(contador, end= " | ")
+    print(contador, end= " ")
+    contador2 = 1
     while contador2 <= contador:
-        print(contador, end=" ")
-        contador = contador + 1
-print ("\nFin")
+        print(contador2, " ")
+        contador2 = contador2 + 1
+    contador = contador + 1
+print ("Fin")
 
 
 
