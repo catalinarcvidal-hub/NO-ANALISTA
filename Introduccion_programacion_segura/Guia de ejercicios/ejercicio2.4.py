@@ -37,5 +37,9 @@ nota_final = (promedio_parciales + examen_final + trabajo_final)
 
 print(f"Su nota final es {nota_final}")
 
+# print(f"Su nota final es {nota_final.1f}") 
+#Con el .1f lo que le indicamos es que el valor de la variable se redondeará automáticamente 
+# el resultado al valor más cercano con un decimal.
+
 
 
