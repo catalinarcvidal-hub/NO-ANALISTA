@@ -18,4 +18,4 @@ if numero > 0:
         print(f"El número {numero} es impar.")
 else:
     print("El número es invalido, ingrese un numero mayor a cero.")
-=======
+
