@@ -16,7 +16,6 @@ difer = 0
 print("¿Quieres saber cuanto ha subido el precio del producto de tu elección entre Febrero y Marzo? Elige uno e ingresa su precio.")
 vp = int(input("Ingrese el valor del producto: "))
 
-if 
 print(f"El precio del producto hoy es ${vp} que son ${diferencia} mas caros que los de Febrero.")
 vm = vf + (vf * 0.006)
 print(f"El valor del producto en Marzo es de {vm}")
