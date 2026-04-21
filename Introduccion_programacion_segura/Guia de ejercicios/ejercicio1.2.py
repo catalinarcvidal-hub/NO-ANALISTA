@@ -6,12 +6,11 @@ de flujo que muestre el valor de un producto actualizado y la diferencia de prec
 #Valor atual/presente
 vp = 0
 #Valor Febrero
-vfebrero = 0
+vf = 0
 #Valor Marzo
-vmarzo = 0
+vm = 0
 #Diferencia en pesos entre el precio de febrero y marzo.
-difer = 0
-
+dif = 0
 
 print("¿Quieres saber cuanto ha subido el precio del producto de tu elección entre Febrero y Marzo? Elige uno e ingresa su precio.")
 vp = int(input("Ingrese el valor del producto: "))
