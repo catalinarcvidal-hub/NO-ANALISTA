@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 """
 EJERCICIOS BASICOS PROPUESTOS.
 
@@ -7,7 +6,6 @@ Crear un algoritmo en diagrama de flujo  que al
 leer un número entero positivo (asuma que el número
 cumple las condiciones), imprimir PAR si el número
 es par e IMPAR si es impar.
-
 """
 numero = 0
 
