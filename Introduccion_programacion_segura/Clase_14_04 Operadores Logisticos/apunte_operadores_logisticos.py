@@ -88,3 +88,8 @@ else:
    print("!!!...Edad inválida, debe esta entre cero y 130...!!!")
 
 """
+"""
+
+end= " -> "
+sep= " "
+"""

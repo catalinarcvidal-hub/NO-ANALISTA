@@ -15,6 +15,7 @@ tasa = tasa / 100
 
 if capital > 0:
     
+    
 
 
 

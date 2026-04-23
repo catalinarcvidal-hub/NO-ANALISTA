@@ -18,6 +18,10 @@ while contador <= ciclos :
   
     suma_notas = ( suma_notas + nota ) 
     contador = contador + 1
-    
+
 promedio = suma_notas / 7
 print(f"Su promedio es {promedio}")
+
+
+
+
