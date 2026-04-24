@@ -8,9 +8,11 @@ precio = 0
 precio = int(input("Ingrese el valor del producto: "))
 descuento = int(input("Ingrese el porcentaje de descuento (Sin el signo %): "))
 
-#Calculo para convertir el descuento en decimal.
-descuento = descuento / 100
-#Calculo para restarle al precio original el descuento.
-precio_final = precio - (precio * descuento)
-
-print(f"El total a pagar es de ${precio_final}")
+if precio > 0 and descuento > 0:
+    #Calculo para convertir el descuento en decimal.
+    descuento = descuento / 100
+    #Calculo para restarle al precio original el descuento.
+    precio_final = precio - (precio * descuento)
+    print(f"El total a pagar es de ${precio_final}")
+else:
+    print("El monto y/o descuento debe ser mayor a 0")

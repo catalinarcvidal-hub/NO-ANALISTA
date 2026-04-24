@@ -13,12 +13,17 @@ vm = 0
 dif = 0
 
 print("¿Quieres saber cuanto ha subido el precio del producto de tu elección entre Febrero y Marzo? Elige uno e ingresa su precio.")
-vp = int(input("Ingrese el valor del producto: "))
-
-print(f"El precio del producto hoy es ${vp} que son ${dif} mas caros que los de Febrero.")
-
-vm = vf + (vf * 0.006)
-print(f"El valor del producto en Marzo es de {vm}")
-
-dif = vm - vf
-print(f"La diferencia del precio entre el mes de febrero y marzo es de {dif} pesos.")
+print()
+if vp > 0:
+    vp = int(input("Ingrese el valor del producto: "))
+    print(f"El precio del producto hoy es ${vp} que son ${dif} mas caros que los de Febrero.")
+else: 
+    print("Monto invalido, debe ser mayor a cero.")
+    if vm > 0:
+        vm = vf + (vf * 0.006)
+        print(f"El valor del producto en Marzo es de {vm}")
+    else: 
+        print("Monto invalido, debe ser mayor a cero.")
+    
+    dif = vm - vf
+    print(f"La diferencia del precio entre el mes de febrero y marzo es de {dif} pesos.")

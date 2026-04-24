@@ -21,25 +21,40 @@ parcial3 = float(input("Ingrese la tercera nota: "))
 examen_final = float(input("Ingrese la nota del examen final: "))
 trabajo_final = float(input("Ingrese la nota del trabajo final: "))
 
-#Calculo para sacar el promedio de las 3 notas.
-promedio_parciales = (parcial1 + parcial2 + parcial3)/3
+if parcial1 >= 0.0 and parcial2 >= 0.0 and parcial3 >= 0.0:
+    #Calculo para sacar el promedio de las 3 notas.
+    promedio_parciales = (parcial1 + parcial2 + parcial3) / 3
+    #Calculo para sacar el 55% del promedio y se guarde en la misma caja del promedio.
+    promedio_parciales = promedio_parciales * (55/100)
+    print(f"El promedio de tus parciales considerando que vale 55% es de {promedio_parciales}")
 
-#Calculo para sacar el 55% del promedio y se guarde en la misma caja del promedio.
-promedio_parciales = promedio_parciales * (55/100)
+if examen_final >= 0.0:
+    #Calculo para sacar el 30% al examen final
+    examen_final = examen_final * (30/100)
+    print(f"El promedio de tu examen final considerando que vale 30% es de {examen_final}")
 
-#Calculo para sacar el 30% al examen final
-examen_final = examen_final * (30/100)
-
-#Calculo para sacar el 15% al trabajo final
-trabajo_final = trabajo_final * (15/100)
-
-nota_final = (promedio_parciales + examen_final + trabajo_final)
-
-print(f"Su nota final es {nota_final}")
-
-# print(f"Su nota final es {nota_final.1f}") 
-#Con el .1f lo que le indicamos es que el valor de la variable se redondeará automáticamente 
-# el resultado al valor más cercano con un decimal.
+if trabajo_final >= 0.0:
+    #Calculo para sacar el 15% al trabajo final
+    trabajo_final = trabajo_final * (15/100)
+    print(f"El promedio de tu examen final considerando que vale 15% es de {trabajo_final}")   
+    
+if promedio_parciales >= 0.0 and examen_final >= 0.0 and nota_final >= 0.0:    
+    nota_final = (promedio_parciales + examen_final + trabajo_final)
+    print(f"Su nota final es {nota_final}")
+    
 
 
 
+
+
+
+
+
+
+"""
+NO LO HAN ENSEÑADO ASI QUE NO LO APLICO.
+
+print(f"Su nota final es {nota_final.1f}") 
+Con el .1f lo que le indicamos es que el valor de la variable se redondeará automáticamente 
+el resultado al valor más cercano con un decimal.
+"""
