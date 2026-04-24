@@ -1,34 +1,44 @@
-""
+"""
 
-Apuntes primera clase de Introducción a la programacion.
+**Apuntes primera clase de Introducción a la programacion.**
 
+FUNCIONES.
 
-Print es para mostrar informacion en la pantalla, todo lo que vaya despues de esta palabra se mostrara en la pantalla, considerando que el texto que queremos mostrar esta entre parentisis y comillas al inicio y al final.")
+PRINT
+    Print es la función que permite al usuario ingresar datos desde el teclado.
+    Es para mostrar informacion en la pantalla, todo lo que vaya despues de esta palabra se mostrara en la pantalla, 
+    considerando que el texto que queremos mostrar esta entre parentisis y comillas al inicio y al final.")
 
-Ejemplo
-print("Hola mundo")
-print("Tu edad es:", 26)
+    Ejemplo
+    print("Hola mundo")
+    print("Tu edad es:", 26)
 
-Input pide datos al usuario desde el teclado, lo que el usuario ingrese se guardara en la variable que hayamos declarado para esto.       
+INPUT
+    Input pide datos al usuario desde el teclado, lo que el usuario ingrese se guardara en la variable que hayamos declarado para esto. 
+    Todo lo que entra con input() es texto (string), aunque escribas números.     
 
-edad = input("Ingresa tu edad: ")
-print("Tu edad es:", edad)
+    edad = input("Ingresa tu edad: ")
+    print("Tu edad es:", edad") o print(f"Tu edad es: {edad}")
 
-int Convierte un valor a número entero (sin decimales).
+TIPOS DE DATOS NÚMERICOS.
 
-edad = int(input("¿Cuántos años tienes? "))
-print(edad + 1)
+INT
+    "int" Convierte un valor a número entero (sin decimales).
 
-float Convierte un valor a número decimal.
-precio = float(input("¿Cuánto cuesta? "))
-print(precio * 2)
+    Ejemplo: 
+    edad = int(input("¿Cuántos años tienes? "))
+    print(edad + 1)
+
+    
+FLOAT
+    "float" Convierte un valor a número decimal.
+
+    Ejemplo: 
+    precio = float(input("¿Cuánto cuesta? "))
+    print(precio * 2)
 
 ¿Por que combinarlos?
-Porque input siempre devuelve texto, entonces si quieres hacer operaciones matemáticas
+Porque input siempre devuelve texto, entonces si quieres hacer operaciones matemáticas con el dato que ingresara el usuario
 necesitas convertirlo:
-numero = input("Ingresa un número: ")  # llega como texto "5"
-numero = int(numero)                   # ahora es el número 5
-print(numero * 2)                      # resultado: 10
 
-
-
+"""
