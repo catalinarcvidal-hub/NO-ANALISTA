@@ -13,14 +13,14 @@ n1 = int(input("Ingrese un número: "))
 n2 = int(input("Ingrese otro número: "))
 n3 = int(input("Ingrese un número mas: "))
 
-if n1 < n2 : 
+if n1 < n2 :
   menor = n1
   if n1 < n3 :
     menor = n1
     if n2 < n3:
       medio = n2
       mayor = n3
-    else: 
+    else:
       medio = n3
       mayor = n2
 else :

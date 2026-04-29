@@ -4,6 +4,9 @@ media y la calificación mas baja de todo el grupo.
 """
 
 contador = 1
+calificacion = 0.0
 
 while contador <= 4:
+    calificacion = float(input("Ingresa la calificación: "))
+
     
