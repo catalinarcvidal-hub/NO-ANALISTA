@@ -20,4 +20,20 @@ Junto con la investigacion deben identificar de su vida cotidiana 10 objetos y p
 Atributos prohibidos. Color, marca, nombre, modelo, apellido.
 Prohibido usar los ejemplos.
 
+1. CARTONERO.
+A. Hoja de cortar, nivelador de hoja, material de la carcasa, orificio para amarra, estado de filo.
+M. Cortar, deslizar hoja, cortar segmentos del filo.
+
+2. CORCHETERA
+A. Material de carcasa (metal o plastica), cantidad de corchetes 
+(capacidad) , limite de corchetes, tamaño de corchete, 
+M. Corchetear, recargar corchetes y sacar corchetes.
+
+3.- CANCION DE SPOTIFY
+A. Artista, Nombre de la cancion, duracion de la cancion, minuto en que va la reproduccion y imagen de portada de la cancion.
+M. Pausar, reproducir, cambiar cancion (siguiente o anterior), reproducir en bucle.
+
+4.-
+
+
 """
