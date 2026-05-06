@@ -19,11 +19,21 @@ print("Fin")
 """
 
 for h in range(0, 24, 1):
-    print (h)
     for m in range(0,60,1):
-        print (m)
         for s in range(0,60,1):
             print (h,m,s, sep= " : ")
 print("Fin")
 
+"""
+definiendo while con true hacemos un ciclo infinito
+time.sleep es para dar un tiempo de espera.
 
+import time
+
+while True:
+   for h in range(0, 24, 1):
+      for m in range(0, 60, 1):
+         for s in range(0, 60, 1):
+            print(h, ":", m, ":", s)
+            #time.sleep(0.2)
+"""
