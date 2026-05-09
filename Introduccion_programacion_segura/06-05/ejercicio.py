@@ -7,4 +7,4 @@ e = 0
 numeros = []
 
 while c < 50:
-    e = 
+    #
