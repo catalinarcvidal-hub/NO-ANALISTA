@@ -17,11 +17,13 @@ while x <= 23:
 print("Fin")
 
 """
+import time
 
 for h in range(0, 24, 1):
     for m in range(0,60,1):
         for s in range(0,60,1):
             print (h,m,s, sep= " : ")
+            time.sleep(0)
 print("Fin")
 
 """

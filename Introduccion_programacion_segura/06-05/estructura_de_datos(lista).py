@@ -1,5 +1,5 @@
 """
-Listas son estructras de datos (Diccionario, vectores, matrices, etc) que nos permiten guardar bajo un nombre especifico muchos elementos.
+Listas son estructuras de datos (Diccionario, vectores, matrices, etc) que nos permiten guardar bajo un nombre especifico muchos elementos.
 Ej. Ingresar 10 numeros y luego de ingresarlos saber cual es mayor al ultimo numero ingresado.
 
 dinamicas/mutables : Nos permite crecer o disminuir elementos ( lista )
@@ -78,5 +78,7 @@ edades.insert()
 INVESTIGAR
 
 Vectores, arreglos, matrices.
+
+Respuesta en word "Formas de organizar datos"
 
 """
