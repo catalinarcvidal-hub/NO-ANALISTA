@@ -22,6 +22,8 @@ def numeros_amigos(a,b):
     return False
     
 
+print(numeros_amigos(284,220))
+
 
 
 
