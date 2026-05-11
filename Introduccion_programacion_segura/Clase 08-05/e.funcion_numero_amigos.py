@@ -11,4 +11,3 @@ n = int(input("Ingrese el primer número: "))
 n2 = int(input("Ingrese el segundo número: "))
 
 if n > 0:
-    
