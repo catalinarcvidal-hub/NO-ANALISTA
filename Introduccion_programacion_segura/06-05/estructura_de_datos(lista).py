@@ -86,6 +86,16 @@ print(edades)
 
 #Es complicado hacer metodos en listas estaticas.
 
+
+"""
+INVESTIGAR
+
+Vectores, arreglos, matrices.
+
+Respuesta en word "Formas de organizar datos"
+
+"""
+
 ###########################################
 
 #Metodo para voltear la lista.
@@ -126,12 +136,3 @@ print(edades)
 print(edades)
 
 ######################################
-
-"""
-INVESTIGAR
-
-Vectores, arreglos, matrices.
-
-Respuesta en word "Formas de organizar datos"
-
-"""
